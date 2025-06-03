@@ -1,0 +1,25 @@
+MODULE DESCRIPTION
+
+A Module description provides detailed information about the module and its supported components, which is accessible in different manners.
+The modules are:
+
+1.	Bird Character
+2.	Random Pipes
+3.	Collision Detection
+4.	Game Score
+5.	Restart
+
+Bird Character:
+    A quick tracing of the bird revealed its dimensions to be 17 pixels (width) x 12 pixels (height). The bird is scaled accordingly to fit the device width. 
+
+Random Pipes:
+    The pipes seem to come at the same time interval every time, so the distance between each set of pipes will be constant. The easiest way to implement this would be to simply move the column vertically to a random Y position when we reset its X position.
+
+Collision Detection:
+    create a hit box for our bird, which will be used to check for collisions with the pipes. If there is a gap between the objects, then they are considered to be non-colliding, otherwise (no gap between the four sides of a rectangle) collision is said to occur.
+
+Game Score:
+    As soon as the bird crosses the hurdle of pipe the score should increase by changing the next costume. The high score will be display when the bird collides to the object or ground.
+
+Restart:
+    If the bird crashes into the ground, then we want to reset the game. So, restart button will help to reset the game from the beginning.
