@@ -1,1 +1,5 @@
 # Flappy-Bird
+
+The project entitled “FLAPPY BIRD GAME” was one of the most popular games in the world around its releases, played by millions of users all around the world. The game was released in 2013. Flappy bird is a side scrolling game, like the popular game super Mario brothers, where the player controls a bird in 2D environment. Unlike Mario, the player only has control over the bird’s vertical movement. The player is tasked with navigating faby bird through the pair of pipes that have equally sized gaps placed at random heights. The main goal is for the bird to travel as far as it can move without hitting any pipes. 
+    
+Faby automatically descends and only ascends when the player presses the button. The player has to save the Faby bird from colliding with the hurdles like pipes. Each time the passes through the pipes, the score gets incremented by one. The game ends when the bird collides with the pipes or fall due to gravity. In simple words, the objective is to pass through all the obstacles and not hit the ground or obstacle. Finally, When the game ends it will show the high score that how many pipes has been crossed by the bird.
